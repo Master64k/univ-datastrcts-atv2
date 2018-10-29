@@ -19,14 +19,14 @@ int main()
         sum += vect[a][a];
 
 
-    std::cout << "diagonal principal: " << sum << std::endl;
+    std::cout << "main diagoonal: " << sum << std::endl;
 
     sum = 0;    // reset
 
     for(int a = 2, b = 0; a >=0 && b < VECT_SIZE; a--, b++)
         sum += vect[a][b];
 
-    std::cout << "diagonal secundária: " << sum << std::endl;
+    std::cout << "secondary diagonal: " << sum << std::endl;
 
     return EXIT_SUCCESS;
 
